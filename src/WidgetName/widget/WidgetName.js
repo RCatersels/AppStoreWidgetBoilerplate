@@ -36,7 +36,7 @@ define([
 ], function(declare, _WidgetBase, _TemplatedMixin, dom, dojoDom, domProp, domGeom, domClass, domStyle, domConstruct, dojoArray, lang, text, html, event, _jQuery, widgetTemplate) {
     "use strict";
 
-    var $ = jQuery.noConflict(true);
+    var $ = _jQuery.noConflict(true);
     
     // Declare widget's prototype.
     return declare("WidgetName.widget.WidgetName", [ _WidgetBase, _TemplatedMixin ], {
